@@ -1,9 +1,10 @@
 fn main() {
-    let mut arr = vec![1, 2, 3, 5, 2];
+    let mut arr = vec![7, 2, 8, 5, 10, 22, 87, 54, 32, 12, 53, 3, 9];
     println!("before sort");
-    print_arr(&arr);
-    println!("sorted");
+    println!("{:?}", arr);
     sort(&mut arr);
+    println!("sorted");
+    println!("{:?}", arr);
 }
 
 fn sort(arr: &mut Vec<i32>) {
@@ -14,13 +15,6 @@ fn sort(arr: &mut Vec<i32>) {
                 arr.swap(j, j + 1);
             }
         }
-    }
-    print_arr(&arr);
-}
-
-fn print_arr(arr: &Vec<i32>) {
-    for i in 0..arr.len() {
-        println!("{}", arr[i]);
     }
 }
 
