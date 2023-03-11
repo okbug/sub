@@ -1,1 +1,1 @@
-/root/workspace/base/target/debug/base: /root/workspace/base/src/main.rs
+/Users/bytedance/Desktop/study/base/rust_base/target/debug/base: /Users/bytedance/Desktop/study/base/rust_base/src/main.rs
